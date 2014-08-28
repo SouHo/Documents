@@ -1,0 +1,8 @@
+In this research, we propose a fast pattern matching algorithm for biological sequences:The SSE Hash Shift algorithm.The algorithm makes use of sse instrument to compute the shift distance.The experimental results show the algorithm is superior to other algorithms especially when the length of the pattern is short then 64 bytes.
+
+Key word:String matching ,SSE,biological sequences
+
+introduction
+general
+
+epsm
