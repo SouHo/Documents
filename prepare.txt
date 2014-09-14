@@ -6,3 +6,5 @@ introduction
 general
 
 epsm
+------------
+Experimental results for searching different length of patterns on a genome sequence using six algorithm. Running times are expressed in millisecond, best results have been boldfaced and padded.
