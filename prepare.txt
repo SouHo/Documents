@@ -8,3 +8,10 @@ general
 epsm
 ------------
 Experimental results for searching different length of patterns on a genome sequence using six algorithm. Running times are expressed in millisecond, best results have been boldfaced and padded.
+-----------
+1.several string matching algorithms are used on biological sequences 提下那些串匹配算法。
+epsm算法描述，草稿本
+epsm目前问题，跳转长度为m-8
+我们的算法改进，通过建立shift跳转数组，其跳转长度最大能到m，且对于中等长度串，其跳转长度90%能到m，
+2.算法细节，一步步
+3.讨论，
