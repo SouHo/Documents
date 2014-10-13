@@ -14,4 +14,6 @@ epsm算法描述，草稿本
 epsm目前问题，跳转长度为m-8
 我们的算法改进，通过建立shift跳转数组，其跳转长度最大能到m，且对于中等长度串，其跳转长度90%能到m，
 2.算法细节，一步步
-3.讨论，
+3.详细讨论，
+
+The hash function used for calculating the CRC of a fixed-length string using the following SSE instruction, _mm_crc32_u64(). And then we use a mask to get a 32bit number. The pre function was to calculate shift distance of the given fixed-length string. In the search phrase, it was responsible for sampling the text string by using hash function. And determing the shift distance based on the hash value, and check whether matched when the value equal one. So in most cases, we could jump the distance of m in a great probability. Unlile epsm , it can only jump the distance of m-8 [4].
